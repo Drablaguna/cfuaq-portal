@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80vw;
+    background-color: orchid;
+    min-height: 300px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    background-color: cadetblue;
+    min-height: 200px;
+    width: 30%;
+    min-width: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Phone */
+@media (max-width: 400px) {
+
+}
+
